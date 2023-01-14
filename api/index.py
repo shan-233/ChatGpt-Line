@@ -18,14 +18,14 @@ chatgpt = ChatGPT()
 def home():
     return 'Hello, World!'
 
-@app.route("/webhook", methods=['POST'])
+@app.route("/line", methods=['POST'])
 def callback():
     # get X-Line-Signature header value
     signature = request.headers['X-Line-Signature']
     # get request body as text
     body = request.get_data(as_text=True)
     app.logger.info("Request body: " + body)
-    # handle webhook body
+    # handle line body
     try:
         line_handler.handle(body, signature)
     except InvalidSignatureError:
