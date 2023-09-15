@@ -21,3 +21,6 @@
 
 ![](img/2.png)
 
+### 線上學習網址
+1. [茶米老師教室－Part1：ChatGPT 與 OpenAI](https://www.youtube.com/watch?v=go7uFUniH1A)
+2. [茶米老師教室－Part2：ChatGPT x Colab 實戰](https://www.youtube.com/watch?v=XBSQ1BFoxt0)
