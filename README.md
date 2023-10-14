@@ -1,4 +1,4 @@
-# ChatGpt-LineBot
+# LINE BOT 智能聊天機器人
 
 ### 說明
 使用OpenAi - text-davinci-003 串接 LineBot 製作出一個小型聊天機器人，
@@ -9,12 +9,12 @@
 |:-------|-------|
 | Python | Flask |
 
-| 其他      | 
+| API      | 
 |:--------|
 | OpenAI  |
 | LineBot |
 
-### 成果
+### 成果展示
 ![](img/0.png)
 
 ![](img/1.png)
